@@ -1,0 +1,21 @@
+{
+  "name": "simplevalidationrule",
+  "version": "1.0.0",
+  "description": "A simple validation rule",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kareem Abdurrahman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsend-express": "^1.2.4",
+    "jsendie": "0.0.2",
+    "payload-validator": "^1.0.4",
+    "validatorjs": "^3.22.1"
+  }
+}
